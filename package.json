@@ -1,0 +1,19 @@
+{
+  "author": "Kristoffer Berdal <web@flexd.net> (http://cognitive.io)",
+  "name": "zabbix",
+  "description": "A zabbix API client",
+  "version": "0.0.0",
+  "homepage": "http://github.com/flexd/node-zabbix",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flexd/node-zabbix.git"
+  },
+  "dependencies": {
+    "jsonrpc2": "~0.1.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
