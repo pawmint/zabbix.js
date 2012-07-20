@@ -1,24 +1,26 @@
 {
   "author": "Kristoffer Berdal <web@flexd.net> (http://cognitive.io)",
   "name": "zabbix",
-  "description": "A zabbix API client",
-  "version": "0.0.0",
+  "description": "A minimal wrapper around request.js to facilitate fetching data from the Zabbix API.",
+  "version": "0.0.1",
   "main": "./lib/zabbix",
   "keywords": [
     "zabbix",
-    "api"
+    "zabbixapi",
+    "jsonrpc2"
   ],
-  "homepage": "http://github.com/flexd/node-zabbix",
+  "homepage": "http://github.com/flexd/zabbix.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/flexd/node-zabbix.git"
+    "url": "git://github.com/flexd/zabbix.js.git"
   },
   "dependencies": {
     "longjohn": "0.0.3",
     "request": "~2.9.203"
   },
   "devDependencies": {
-    "mocha" : "~1.3.0"
+    "mocha" : "~1.3.0",
+    "should" : "~1.0.0"
     },
   "optionalDependencies": {},
   "engines": {
