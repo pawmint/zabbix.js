@@ -3,13 +3,19 @@
   "name": "zabbix",
   "description": "A zabbix API client",
   "version": "0.0.0",
+  "main": "./lib/zabbix",
+  "keywords": [
+    "zabbix",
+    "api"
+  ],
   "homepage": "http://github.com/flexd/node-zabbix",
   "repository": {
     "type": "git",
     "url": "git://github.com/flexd/node-zabbix.git"
   },
   "dependencies": {
-    "jsonrpc2": "~0.1.1"
+    "longjohn": "0.0.3",
+    "request": "~2.9.203"
   },
   "devDependencies": {},
   "optionalDependencies": {},
