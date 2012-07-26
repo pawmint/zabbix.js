@@ -1,10 +1,10 @@
-node-zabbix
+zabbix.js
 ===========
 
 Description
 -----------
 
-A small client for the Zabbix API based around the excellent [request](https://github.com/mikeal/request) library.
+A small client for the Zabbix API based around the excellent [request.js](https://github.com/mikeal/request) library.
 
 I hacked this together quick because I needed a way to pull data from Zabbix into node for a project.
 
