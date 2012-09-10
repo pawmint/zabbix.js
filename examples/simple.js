@@ -1,6 +1,6 @@
-var z = require ('../lib/zabbix');
+var Zabbix = require ('../lib/zabbix');
 
-var zabbix = new z.Client('http://zabbix.server.com/api_jsonrpc.php','username', 'password');
+var zabbix = new Zabbix('http://zabbix.server.com/api_jsonrpc.php','username', 'password');
 
 zabbix.getApiVersion(function (err, resp, body) {
   if (!err) {
