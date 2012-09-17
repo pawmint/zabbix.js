@@ -1,6 +1,12 @@
 zabbix.js
 ===========
 
+Currently there is a bug where the client will crash when Zabbix's database is down. This is because Zabbix returns a HTML page from the API
+instead of returning a proper JSONRPC API error response. I have created a ticket on the Zabbix ticket tracker, until it gets fixed I
+will implement a change that will detect if we get HTML or JSON before parsing it.
+
+You can see the status of the ticket here: https://support.zabbix.com/browse/ZBX-5565
+
 Description
 -----------
 
