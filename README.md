@@ -1,6 +1,9 @@
 zabbix.js
 ===========
 
+The bug has been fixed but I have not had time to look at the code. This whole module obviously needs a lot of work but I am not currently involved with zabbix things where I work.
+
+
 Currently there is a bug where the client will crash when Zabbix's database is down. This is because Zabbix returns a HTML page from the API
 instead of returning a proper JSONRPC API error response. I have created a ticket on the Zabbix ticket tracker, until it gets fixed I
 will implement a change that will detect if we get HTML or JSON before parsing it.
