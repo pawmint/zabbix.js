@@ -15,7 +15,6 @@
     "url": "git://github.com/flexd/zabbix.js.git"
   },
   "dependencies": {
-    "longjohn": "0.0.3",
     "request": "~2.9.203"
   },
   "devDependencies": {
