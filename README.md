@@ -38,3 +38,6 @@ This is my first node.js module, and basically the first thing I've done in java
 I will be adding more features and useful things as I go along, as well as make a full test suite with Mocha, I just need to learn it first.
 
 
+Contributors
+------------
+@Rauno56
