@@ -21,9 +21,11 @@
     "request": "~2.9.203"
   },
   "devDependencies": {
-    "mocha" : "~1.3.0",
-    "should" : "~1.0.0"
-    },
+    "mocha": "~1.3.0",
+    "mockery": "^1.4.0",
+    "should": "~1.0.0",
+    "sinon": "^1.10.3"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
