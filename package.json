@@ -2,7 +2,7 @@
   "author": "Kristoffer Berdal <web@flexd.net> (http://cognitive.io)",
   "name": "zabbix",
   "description": "A minimal wrapper around request.js to facilitate fetching data from the Zabbix API.",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "main": "./lib/zabbix",
   "scripts": {
     "test": "./node_modules/.bin/mocha -w -R spec"
