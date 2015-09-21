@@ -7,7 +7,7 @@ zabbix.getApiVersion(function (err, resp, body) {
     console.log("Unauthenticated API version request, and the version is: " + body.result)
   }
 });
-zabbix.authenticate(function (err, resp, body) {
+zabbix.login(function (err, resp, body) {
   if (!err) {
     console.log("Authenticated! AuthID is: " + zabbix.authid);
   }
