@@ -1,5 +1,5 @@
 {
-  "author": "Kristoffer Berdal <web@flexd.net> (http://cognitive.io)",
+  "author": "PAWM International <pawmint@googlegroups.com>",
   "name": "zabbix",
   "description": "A minimal wrapper around request.js to facilitate fetching data from the Zabbix API.",
   "version": "0.1.1",
@@ -12,10 +12,10 @@
     "zabbixapi",
     "jsonrpc2"
   ],
-  "homepage": "http://github.com/flexd/zabbix.js",
+  "homepage": "http://github.com/pawmint/zabbix.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/flexd/zabbix.js.git"
+    "url": "git://github.com/pawmint/zabbix.js.git"
   },
   "dependencies": {
     "async": "^1.4.2",
